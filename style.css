@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+.container{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color: black;
+    height: 50vh;
+    width: 30vw;
+    position: absolute;
+}
+
+.photu{
+    margin: auto;
+    margin-top: 1rem;
+    /* position: relative; */
+    background-color: white;
+    height: 30vh;
+    width: 24vw;
+}
+
+.text{
+    margin-top: 1rem;
+    margin-left: 1.45rem;
+    color: white;
+    font-size: 20px;
+    font-family: 'Megrim', cursive;
+}
+
+.subText{
+    margin-top: 0.5rem;
+    margin-left: 1.45rem;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.price{
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    border: 2px solid antiquewhite;
+    margin-top: 1.2rem;
+    color: black;
+    background-color: white;
+    margin-left: 1.45rem;
+    height: 1.5rem;
+    border-radius: 24%
+}
+
+.cart{
+    position: ;
+}
+
+button{
+    cursor: pointer;
+}
